@@ -42,12 +42,15 @@ However, if your time is worth more spent elsewhere. Feel free to use the code a
 If you haven't already, you'll need to export your content from Notion.
 
 1. From your Notion app, click the **Settings & Members** tab in the sidebar
+
 ![Settings&Members](media/export1.png)
 
 2. Find and click the **Settings** tab. Find the **Export content** section. Click the **Export all workspace content** button
+
 ![Settings](media/export2.png)
 
 3. Select **Markdown & CSV** as Export Format and click the **Export** button
+
 ![Export](media/export3.png)
 
 4. Save the resulting .zip file to your computer
