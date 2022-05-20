@@ -57,7 +57,7 @@ If you haven't already, you'll need to export your content from Notion.
 
 5. Extract the .zip contents to a known location
 
-## Run the N2O.py Script
+## Running the Script
 
 Run:
 
