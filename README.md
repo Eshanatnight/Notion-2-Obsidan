@@ -43,28 +43,37 @@ If you haven't already, you'll need to export your content from Notion.
 
 1. From your Notion app, click the **Settings & Members** tab in the sidebar
 ![Settings&Members](media/export1.png)
+
 2. Find and click the **Settings** tab. Find the **Export content** section. Click the **Export all workspace content** button
 ![Settings](media/export2.png)
+
 3. Select **Markdown & CSV** as Export Format and click the **Export** button
 ![Export](media/export3.png)
+
 4. Save the resulting .zip file to your computer
+
 5. Extract the .zip contents to a known location
 
 ## Run the N2O.py Script
 
-- Make sure `N2O.py` and `N2Omodule.py` are in the same directory.
-- Run `Python3 N2O.py`
-- Use the Open-File dialog that pops up to navigate to your NotionExport.zip file.
-- When the script finishes you'll find a new zip file in the same directory that's ready for Obsidian.
+Run:
+
+```python
+    python N2O.py
+```
+
+Use the Open-File dialog that pops up to navigate to your NotionExport.zip file.
+
+When the script finishes you'll find a new zip file in the same directory that's ready for Obsidian.
 
 ## Importing or Integrating into Obsidian
 
 Time to import everything into Obsidian
 
 1. Place all the converted files into a directory of your choosing
-2. Open Obsidian and click the Vault Icon ![vault icon](media/vaulticon.png)
-3. Select **Open folder as vault**
-![open vault](media/vault.png)
-4. Use the Select Folder window to navigate to the directory with your newly converted files
 
-Enjoy the shift to Obsidian!
+2. Open Obsidian and click the Vault Icon
+
+3. Select **Open folder as vault**
+
+4. Use the Select Folder window to navigate to the directory with your newly converted files
